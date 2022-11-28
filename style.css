@@ -9,7 +9,6 @@ body{
 }
 header{
     width: 100%;
-    height: 65px;
     background-color: #dc6378;
     display: flex;
     justify-content: space-around;
@@ -17,10 +16,10 @@ header{
 }
 
 .logo-imagem{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     background-color: black;
-    border-radius: 40px;
+    border-radius: 50px; 
     margin-left: 3px;
 }
 
@@ -30,11 +29,12 @@ header{
 }
 
 .logo-texto{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 25px;
     color: #101652;
     display: flex;
-    margin-top: 5px;
+    font-size: 20px;
+    margin-inline: 10px;
 } 
 
 .menu li{
@@ -44,7 +44,7 @@ header{
 
 .menu li a{
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: #101652;
 }
@@ -52,3 +52,49 @@ header{
 .menu li a:hover{
     color: black;
 }
+
+.intro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #101652;
+    text-align: center;
+}
+
+.container-brigadeiro{
+    display: flex;
+    width: 80%;
+    height: 100px;
+    background-color: #207178;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.container-brigadeiro:hover{
+    background-color: #1d5e64 ;
+}
+
+.brg-img{
+    width: 100px;
+    height: 70%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.txt-brg{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: black;
+    margin-top: 15px;
+    margin-left: 52px;
+}
+
+.container-cone{
+    width: 80%;
+    height: 100px;
+    background-color: #207178;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+}
+
